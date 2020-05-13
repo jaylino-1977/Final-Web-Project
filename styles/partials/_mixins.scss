@@ -1,0 +1,10 @@
+@mixin font_type($fontfamily, $color, $size) {
+  font-family: $fontfamily;
+  color: $color;
+  font-size: $size;
+}
+@mixin button_style($bgcolor, $borderstyle, $radius) {
+  background-color: $bgcolor;
+  border: $borderstyle;
+  border-radius: $radius;
+}
